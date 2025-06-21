@@ -1,6 +1,7 @@
 # JSON Formatter
 
 一个强大的JSON格式化工具，提供格式化、转义和语法高亮功能，帮助开发者更方便地处理JSON数据。
+![example.png](example.jpg)
 
 ## 📋 功能特点
 
