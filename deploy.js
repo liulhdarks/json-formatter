@@ -19,8 +19,8 @@ try {
   process.env.NODE_ENV = 'production';
   
   // 执行构建命令
-  console.log('Building application...');
-  execSync('npm run build', { stdio: 'inherit' });
+  console.log('Building application with NODE_ENV=production...');
+  execSync('npm run build', { stdio: 'inherit', env: {...process.env, NODE_ENV: 'production'} });
   
   // 创建.nojekyll文件
   createNojekyllFile();

@@ -2,6 +2,7 @@
   "name": "json-formatter",
   "version": "1.0.0",
   "description": "JSON格式化工具，支持格式化、转义和语法高亮",
+  "homepage" : "https://liulhdarks.github.io/json-formatter/",
   "main": "server.js",
   "bin": {
     "json-formatter": "./bin/cli.js"
@@ -13,7 +14,7 @@
     "pkg": "npm run build && pkg .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "node deploy.js",
-    "deploy:gh-pages": "npm run build && npx gh-pages -d dist"
+    "deploy:gh-pages": "node deploy.js && npx gh-pages -d dist"
   },
   "keywords": [
     "json",
